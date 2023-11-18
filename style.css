@@ -17,7 +17,7 @@ footer{
     background-color: black;
     align-items: flex-start;
     height: 5%;
-    padding: 7%;
+    padding: 5%;
 }
 
 /* The article fills all the space between header & footer */
@@ -29,6 +29,7 @@ body{
 div.site{ 
     flex:1;
     padding-left: 12%;
+    padding-right: 12%;
 }
 h2.site {
     font-size: 35px;
@@ -44,7 +45,7 @@ h2.site {
 .titlesite {
     margin-left: 10%;
     margin-bottom: 5%;
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 50px;
 }
 .footertitle {
@@ -75,6 +76,11 @@ header.img {
 }
 
 /* Galery */
+@keyframes hover {
+    0% {width: 180px;}
+    50% {width: 185px;}
+    100% {width: 180px;}
+}
 
 div.gallery {
     margin: 5px;
@@ -84,7 +90,10 @@ div.gallery {
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid #000000;
+    animation-name: hover;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
 }
 
 div.gallery img {

@@ -16,11 +16,9 @@
 
 html {
     height: 100%;
+    width: 100%;
 }
-body {
-    min-height: 100vh;
-    margin:0; 
-}
+
 
 html { 
     margin:0;
@@ -36,33 +34,34 @@ h1 {
 }
 
 h1.website-title {
-    font-size: 5em;
+    font-size: 6vh;
     text-align: center;
     background-color: var(--colorbase);
-    padding: 0.5em;
+    padding: 3vh;
     border-radius: 50px;
-    margin-top: 4em;
-    margin-bottom: 4em;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 
 .titlecontainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: inherit;
     align-items: center;
-    height: max-content;
+    height: 10vh;
+    margin-top: 5vh;
 }
 
 .darkmode {
     background-color: var(--contrastcolorbase);
     color: var(--fontcolor);
     border-radius: 50px;
-    margin-top: 4em;
-    margin-bottom: 4em;
-    margin-left: 3em;
-    height: 10em;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    margin-left: 10vh;
     border: 0px solid;
-    padding: 2em;
+    padding: 3vh;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -84,12 +83,11 @@ h1.website-title {
     transform: rotate(360deg);
     animation-name: rotate;
     animation-duration: 0.25s;
-    anima
 }
 
 img.svgicon {
-    height: 100px;
-    width: 100px;
+    width: 7vh;
+    height: 7vh;
 
 }
 

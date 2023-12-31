@@ -53,6 +53,7 @@ h1.website-title {
     margin-top: 5vh;
 }
 
+
 .darkmode {
     background-color: var(--contrastcolorbase);
     color: var(--fontcolor);

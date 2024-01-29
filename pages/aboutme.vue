@@ -1,7 +1,7 @@
 <template>
   <div class="container">
       <div class="profile-picture">
-        <NuxtImg class="img" src="/amethystshard.png" height="300px" />
+        <img class="img" src="/amethystshard.png" height="300px" />
       </div>
       <div class="text">
         <h1 class="abouttext">Hi, I'm <span>Arthur</span>. I'm {{difference}} yrs old. I love coding, gardening, baking and playing video-games of course. Most of the time I try to create video games (Godot ^^), but I also make websites and a lot of others things.</h1>

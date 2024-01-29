@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header">
-    <NuxtImg class="header-image" src="amethystshard.png" height="80px" />
+    <img class="header-image" src="/amethystshard.png" height="80px" />
     <h1 class="header-item">Spectralo's Website</h1>
     </div> 
   </div>

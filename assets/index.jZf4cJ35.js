@@ -1,1 +1,0 @@
-import{_ as e,c as s,o as t,a as c}from"./entry.G2eFtlE5.js";const o={},a=c("h1",{class:"test"},"Home Page",-1),n=[a];function _(r,d){return t(),s("div",null,n)}const l=e(o,[["render",_]]);export{l as default};

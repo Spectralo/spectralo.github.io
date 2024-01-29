@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  target: 'static',
+  router: {
+    base: '/spectralo.github.io/'
+  },
   devtools: { enabled: false },
   modules: ['@nuxtjs/google-fonts', "@nuxt/image"],
   googleFonts: {
@@ -9,5 +13,6 @@ export default defineNuxtConfig({
   },
   app: {
     pageTransition: { name: 'page', mode: 'out-in' }
-  },
+  }
+
 })

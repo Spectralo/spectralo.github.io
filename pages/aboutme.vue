@@ -18,7 +18,7 @@
   .profile-picture {
     height: 320px;
     width: 320px;
-    background-color: #163020 !important;
+    background-color: rgb(65, 21, 25) !important;
     border-radius: 50%;
   }
   .img {
@@ -38,12 +38,13 @@
   .text {
     font-family: 'Inconsolata', sans-serif;
     font-weight: 700;
-    background-color: #163020;
+    background-color: rgb(65, 21, 25);
     margin-left: 2%;
     border-radius: 20px;
     margin-top: 0px;
     margin-bottom: 30px;
     width: 30%;
+    color: #fff9c0 !important;
 
   }
   span {
@@ -51,7 +52,7 @@
   }
   .abouttext {
     margin: 30px;
-    color: #B6C4B6;
+    color: #fff9c0 !important;
     font-family: 'Inconsolata', sans-serif;
     font-weight: 700;
     font-size: 30px;

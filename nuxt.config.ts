@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  modules: ['@nuxtjs/google-fonts', "@nuxt/image"],
+  modules: ['@nuxtjs/google-fonts', "@nuxt/image","@nuxt/content"],
   googleFonts: {
     families: {
       Inconsolata: [400, 700, 900],

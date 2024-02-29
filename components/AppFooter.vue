@@ -14,7 +14,8 @@
 
 <style>
   .footer {
-    background-color: #163020;
+    border-top: 4px solid #fff9c0;
+    background-color: rgb(6, 8, 27);  
     display: flex;
     justify-content: start;
     align-items: center;
@@ -27,9 +28,8 @@
   }
   .items {
     padding-left: 7%;
-    background-color: #163020;
     font-family: 'Inconsolata', sans-serif;
-    color: #B6C4B6;
+    color: #fff9c0;
     text-decoration: none;
     font-size: 40px;
   }

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <AppHeader/>
     <div class="app">
       <NuxtPage/>
     </div>
@@ -37,36 +36,9 @@
   body {
   	line-height: 1;
   }
-  ol, ul {
-  	list-style: none;
-  }
-  blockquote, q {
-  	quotes: none;
-  }
-  blockquote:before, blockquote:after,
-  q:before, q:after {
-  	content: '';
-  	content: none;
-  }
-  table {
-  	border-collapse: collapse;
-  	border-spacing: 0;
-  }
+  
   body{
-    background: rgb(141,173,141);
-    background: linear-gradient(90deg, rgba(141,173,141,1) 0%, rgba(238,240,229,1) 100%); 
-  }
-  .app {
-    margin-bottom: 6em;
-  }
-  .page-enter-active,
-  .page-leave-active {
-    transition: all 0.1s;
-  }
-  .page-enter-from,
-  .page-leave-to {
-    opacity: 0;
-    filter: blur(1rem);
+    background: rgb(6, 8, 27);
   }
   
 </style>
